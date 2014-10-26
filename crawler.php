@@ -21,7 +21,7 @@ foreach($avail as $s)
       }
       else
       {
-        echo "Not available";?><br /><?php
+        echo "Not available in " . $zone->zone ;?><br /><?php
       }
     }
     break;

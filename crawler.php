@@ -7,7 +7,7 @@ $avail = $a->answer->availability;
 
 foreach($avail as $s)
 {
-  if($s->reference==='142sk1')	
+  if($s->reference==='150sk10')
   {
     $z = $s->zones;
     foreach($z as $zone)
